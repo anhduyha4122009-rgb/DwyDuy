@@ -1,0 +1,31 @@
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local name = player.Name
+
+local Rules = {
+	khoemanh = function()
+		print("1")
+	end,
+
+	yeukem = function()
+		print("2")
+	end,
+}
+
+local success = 0
+local fail = 0
+
+for groupName, list in pairs(Config.Groups) do
+	for _, username in ipairs(list) do
+		if username == name then
+			success += 1
+			local fn = Rules[groupName]
+			if fn then fn() end
+		else
+			fail += 1
+		end
+	end
+end
+
+print(success .. " ✅")
+print(fail .. " ❌")
