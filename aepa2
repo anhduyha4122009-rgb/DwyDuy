@@ -5,12 +5,12 @@ local player = Players.LocalPlayer
 local name = player.Name
 
 local Rules = {
-	khoemanh = function()
+	tao = function()
 		repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
 getgenv().Key = "457cc6b7a32e89b9468dce65" 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
 	end,
-	yeukem = function()
+	may = function()
 		loadstring(game:HttpGet("https://draculahub.xyz/get_script"))()
 	end,
 }
