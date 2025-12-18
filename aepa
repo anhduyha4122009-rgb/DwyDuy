@@ -1,11 +1,11 @@
 local Config = {
 	Groups = {
 		khoemanh = {
-			"user1",
+			"frbt_reg11",
 		},
 
 		yeukem = {
-			"user2",
+			"user1",
 		},
 	}
 }
