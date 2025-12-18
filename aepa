@@ -1,6 +1,6 @@
 local cfg = getgenv().config
 if cfg.Groups.khoemanh then
-	print("run khoemanh")
+	print("DwyDuy")
 end
 local Config = {
 	Groups = {
